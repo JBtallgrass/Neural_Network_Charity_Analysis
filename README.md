@@ -39,45 +39,45 @@ The model performance was set at 75%. Unfortunately, the current model only achi
 
 6. What steps did you take to try and increase model performance?
 
-Attempt 1:
+  Attempt 1:
 
-  Dropped noisy data of ASK_AMT
-  Hidden layer one: tanh type - 80 neurons
-  Hidden layer two: relu type - 30 neurons
-  Activation: sigmoid
-  Highest accuracy/epoch: 74.08%, epoch 81 of 100
-  Overall accuracy average: 72.79%
-  
- Attempt 2:
+    Dropped noisy data of ASK_AMT
+    Hidden layer one: tanh type - 80 neurons
+    Hidden layer two: relu type - 30 neurons
+    Activation: sigmoid
+    Highest accuracy/epoch: 74.08%, epoch 81 of 100
+    Overall accuracy average: 72.79%
 
-  Dropped noisy data of ASK_AMT
-  Hidden layer one: tanh type - 80 neurons
-  Hidden layer two: relu type - 50 neurons
-  Hidden layer three: sigmoid type - 30 neurons
-  Activation: relu
-  Highest accuracy/epoch: 74.00%, epoch 89 of 100
-  Overall accuracy average: 73.04%
-  
-Attempt 3:
+   Attempt 2:
 
-  Dropped noisy data of ASK_AMT
-  Hidden layer one: sigmoid type - 100 neurons
-  Hidden layer two: sigmoid type - 75 neurons
-  Hidden layer three: relu type - 50 neurons
-  Hidden layer four: relu type - 25 neurons
-  Activation: sigmoid
-  Highest accuracy/epoch: 74.09%, epoch 99 of 100
-  Overall accuracy average: 72.92%
-  
-Attempt 4:
+    Dropped noisy data of ASK_AMT
+    Hidden layer one: tanh type - 80 neurons
+    Hidden layer two: relu type - 50 neurons
+    Hidden layer three: sigmoid type - 30 neurons
+    Activation: relu
+    Highest accuracy/epoch: 74.00%, epoch 89 of 100
+    Overall accuracy average: 73.04%
 
-  Dropped noisy data of ASK_AMT
-  Hidden layer one: sigmoid type - 60 neurons
-  Hidden layer two: relu type - 30 neurons
-  Hidden layer three: relu type - 15 neurons
-  Activation: sigmoid
-  Highest accuracy/epoch: 74.20%, epochs 155 and 162 of 200
-  Overall accuracy average: 72.47%
+  Attempt 3:
+
+    Dropped noisy data of ASK_AMT
+    Hidden layer one: sigmoid type - 100 neurons
+    Hidden layer two: sigmoid type - 75 neurons
+    Hidden layer three: relu type - 50 neurons
+    Hidden layer four: relu type - 25 neurons
+    Activation: sigmoid
+    Highest accuracy/epoch: 74.09%, epoch 99 of 100
+    Overall accuracy average: 72.92%
+
+  Attempt 4:
+
+    Dropped noisy data of ASK_AMT
+    Hidden layer one: sigmoid type - 60 neurons
+    Hidden layer two: relu type - 30 neurons
+    Hidden layer three: relu type - 15 neurons
+    Activation: sigmoid
+    Highest accuracy/epoch: 74.20%, epochs 155 and 162 of 200
+    Overall accuracy average: 72.47%
 
 
 ## Summary: 
