@@ -78,7 +78,7 @@ The model performance was set at 75%. Unfortunately, the current model only achi
    
 
 ## Summary: 
-the above detail illustrates the ill performanc of the model- 72% accuracy with little improvement gained with multiple adjustments, the initial setup for the model did not perform at the required level,  72.98%. Multiple turnsachieved an increased rating of 73.04% on the second optimization attempt. All other models had lower final accuracies than the initial model. For this, it can be seen that changing the number of hidden layers and neurons had a negligible effect on increasing model accuracy. continued manipulation might invalidat the or prove it infeasible to present to the client as a viable source of informantion.
+The above detail illustrates the ill performance of the model- average 72% accuracy with little improvement gained with multiple adjustments, the initial setup for the model did not perform at the required level achieving 72.98%. Multiple turns achieved an increased rating of 73.04% on the second optimization attempt. All other models had lower final accuracies than the initial model. For this, it can be seen that changing the number of hidden layers and neurons had a negligible effect on increasing model accuracy. continued manipulation might invalidat the or prove it infeasible to present to the client as a viable source of informantion.
 
 Further analysis may prove frituful if permitted to continue testing utilizing additonal resources and alternative modeling.
 
