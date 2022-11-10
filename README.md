@@ -1,14 +1,14 @@
 # Neural_Network_Charity_Analysis
-______________________________________________________________________________
-## Overview of the analysis: Explain the purpose of this analysis.
-______________________________________________________________________________
+
+## Overview of the analysis: 
 
 The purpose of the project is to create a binary classifier that is capable of predicting whether applicants will be successful if funded by the cilent  Alphabet Soup. From Alphabet Soup’s business team, the team will utilize a CSV containing more than 34,000 organizations that have received funding from Alphabet Soup over the years. The goal of the project is to determine the classification of any future organizations wishing to use the cilent's services
 
 
-## Results: Using bulleted lists and images to support your answers, address the following questions.
-____________________________________________________________________________________________________________
-  ### Data Processing 
+## Results: 
+Using bulleted lists and images to support your answers, address the following questions.
+
+### Data Processing 
 1. What variable(s) are considered the target(s) for your model?
    The target of IS_SUCCESSFUL is currently the only target for the model.
 2. What variable(s) are considered to be the features for your model?
@@ -27,12 +27,11 @@ ________________________________________________________________________________
    * EIN 
    * NAME 
   have been removed because they are only used for identification.
-______________________________________________________________________________________________________
- ### Compiling, Training, and Evaluating the Model
+
+### Compiling, Training, and Evaluating the Model
  
 4. How many neurons, layers, and activation functions did you select for your neural network model, and why? 
-For the initial attempt at model, two layers, with 80 and 30 neurons respectively (both "relu" type) were used. The activation feature of "sigmoid" was used. This was presented by the client as the starting point for model creation, allowing the analyst two further adjust in order to increase optimization.
-    
+For the initial attempt at model, two layers, with 80 and 30 neurons respectively (both "relu" type) were used. The activation feature of "sigmoid" was used. This was presented the starting point for model creation, allowing the analyst two further modification to increase model effieicency
 
 5. Were you able to achieve the target model performance? 
 The model performance was set at 75%. Unfortunately, the current model only achieved an accuracy rating of 74.09% on epochs 96 and 99. An overall accuracy average of 72.98% was achieved.
